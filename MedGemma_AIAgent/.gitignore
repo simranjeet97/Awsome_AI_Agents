@@ -1,0 +1,28 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+
+# Streamlit
+.streamlit/
+static/
+
+# Medical Data (Temp files)
+temp.dcm
+temp.nii
+temp.nii.gz
+
+# Reports
+*.pdf
+
+# DS_Store
+.DS_Store
