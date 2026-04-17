@@ -35,7 +35,7 @@ This repository contains over 15 unique AI agents, each demonstrating different 
 ## 🏗️ Core Technologies
 
 - **Frameworks:** [Agno](https://github.com/agno-ai/agno), [Microsoft AutoGen](https://github.com/microsoft/autogen), [OpenAI Swarm](https://github.com/openai/swarm)
-- **Models:** Gemini 2.0, Gemma 3, DeepSeek-R1, GPT-4o
+- **Models:** Gemini 3.0 Flash, Gemini 2.5 Flash, Google Gemma 3 and Gemma 4, DeepSeek-R1, GPT-4o
 - **Vector DBs:** ChromaDB, Neo4j
 - **Tools:** Firecrawl, Composio, SerpApi, Yahoo Finance
 
