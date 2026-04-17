@@ -1,12 +1,14 @@
-# Daily Briefing Agent (Google ADK)
+# 🌤️ Daily Briefing Agent (Google ADK)
 
-A conversational AI agent built with **Google Agent Development Kit (ADK)** that provides live weather updates, global news headlines, and a daily joke. This project demonstrates the power of **Agent Skills**—both file-based and inline—and features advanced routing using Gemini 2.5 Flash.
+A sophisticated conversational AI agent built with the **Google Agent Development Kit (ADK)** that provides live weather updates, global news headlines, and a daily dose of humor. This project demonstrates high-fidelity **Agent Skills**—both file-based and inline—orchestrated by Gemini 2.5 Flash.
+
+---
 
 ## ✨ Features
-- **Weather Skill (File-Based)**: Fetches real-time data from `wttr.in`. Includes a city alias system (`CITIES.md`) to handle historical names like "Bombay" or "Bangalore" silently.
-- **News Skill (Inline)**: Dynamic summarizer using `NewsAPI.org`. Supports categories like Technology, Business, Science, and Sports (including specific support for Cricket/Football queries).
-- **Joke-of-the-Day Skill**: An instruction-only skill demonstrating how agents can use L3 reference content (`FORMATS.md`) to generate creative content without external tools.
-- **Progressive Disclosure**: High-level instructions are always available, while detailed formatting guides are loaded only when needed.
+- **Weather Skill (File-Based)**: Fetches real-time atmospheric data from `wttr.in`. Features an intelligent city alias system (`CITIES.md`) to resolve historical or regional names like "Bombay" or "Bangalore" silently.
+- **News Skill (Inline)**: A dynamic summarizer using `NewsAPI.org`. Provides deep support for categories like Technology, Business, Science, and Sports (with custom logic for Cricket and Football).
+- **Joke-of-the-Day Skill**: A demonstration of instruction-only skills using L3 reference content (`FORMATS.md`) to generate creative outputs without external API calls.
+- **Progressive Disclosure**: High-level instructions are always resident in memory, while detailed formatting guides are loaded dynamically via ADK's skill system to maintain a large context window efficiency.
 
 ---
 
@@ -41,7 +43,7 @@ graph TD
 ### 2. Setup
 ```bash
 # Clone and enter directory
-cd daily_briefing_agent
+cd Weather_and_News_AI_Agent
 
 # Create and activate virtual environment
 python3 -m venv venv
@@ -74,7 +76,7 @@ adk run .
 
 ## 🛠️ Project Structure
 ```text
-daily_briefing_agent/
+Weather_and_News_AI_Agent/
 ├── daily_briefing_agent/     # Agent Discovery Directory
 │   ├── agent.py              # Main logic, Inline Skills & Tool Handlers
 │   ├── __init__.py           # Required for ADK discovery
@@ -86,5 +88,8 @@ daily_briefing_agent/
 └── requirements.txt          # Python Dependencies
 ```
 
-## 🤝 Project Origin
-Built as part of the "Your First Google ADK Agent with Skills" tutorial. Modified to include extended sports news support, city name alias resolving, and instruction-only skill patterns.
+---
+
+<div align="center">
+    <b>Real-Time Grounded Intelligence Powered by Google ADK</b>
+</div>
