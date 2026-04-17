@@ -30,6 +30,26 @@ This repository contains over 15 unique AI agents, each demonstrating different 
 | [📂 Google ADK Toolkit](./GenAI_Google_ADK) | Beginner to Advanced ADK implementations | Google ADK |
 | [📂 Weather & News](./Weather_and_News_AI_Agent) | Real-time info delivery agent | DuckDuckGo |
 
+
+---
+
+## 🔥 Trending AI Repositories (Weekly)
+
+Explore the top 10 repositories blowing up on GitHub that can replace ~$1,500/month in paid AI tools:
+
+1.  **[Andrej Karpathy Skills](http://github.com/forrestchang/andrej-karpathy-skills):** Replaces paid Claude Code courses. ⭐ 48k+ stars.
+2.  **[Claude Mem](http://github.com/thedotmack/claude-mem):** Auto-captures and compresses Claude's history for perfect persistent memory. ⭐ 59k+ stars.
+3.  **[Voicebox](http://github.com/jamiepine/voicebox):** Open-source ElevenLabs alternative ($22/mo savings). ⭐ 18k+ stars.
+4.  **[Open Agents](http://github.com/vercel-labs/open-agents):** Vercel's template for building cloud agents ($200/mo savings).
+5.  **[Cognee](http://github.com/topoteretes/cognee):** AI agent memory engine in just 6 lines of code. ⭐ 15k+ stars.
+6.  **[Magika](http://github.com/google/magika):** Google's AI-powered file type detection tool.
+7.  **[GenericAgent](http://github.com/lsdefine/GenericAgent):** Self-evolving agent with 6x lower token consumption.
+8.  **[OMI](http://github.com/BasedHardware/omi):** AI that sees your screen and listens to provide proactive help ($25/mo savings).
+9.  **[Evolver](http://github.com/EvoMap/evolver):** Self-evolution engine for AI agent optimization.
+10. **[KreoPolyBot](http://t.me/KreoPolyBot?start=ref-kreohub):** Specialized wallet tracking and copy-trading bot.
+
+> **Total Savings:** $1,500/mo → **$0** (excluding specialized tools like Kreo).
+
 ---
 
 ## 🏗️ Core Technologies
