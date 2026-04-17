@@ -1,0 +1,60 @@
+/* Clean, High-Contrast Clinical UI */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+    --primary: #2563eb;
+    --text-main: #1e293b;
+    --text-muted: #64748b;
+    --bg-light: #ffffff;
+    --border-color: #e2e8f0;
+}
+
+.stApp {
+    background-color: var(--bg-light);
+    font-family: 'Inter', sans-serif;
+    color: var(--text-main);
+}
+
+/* Clearer Headings */
+h1, h2, h3 {
+    color: var(--text-main) !important;
+    font-weight: 700 !important;
+}
+
+/* Simple Cards */
+.clinical-card {
+    background: white;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: var(--primary) !important;
+    color: white !important;
+    border-radius: 6px !important;
+    border: none !important;
+    font-weight: 600 !important;
+    width: 100%;
+}
+
+/* Sidebar Branding */
+section[data-testid="stSidebar"] {
+    background-color: #f1f5f9;
+    border-right: 1px solid var(--border-color);
+}
+
+/* High Contrast for Analysis Text */
+.stTextArea textarea {
+    color: #000000 !important;
+    font-family: inherit;
+}
+
+/* Alert Boxes */
+.stAlert {
+    border-radius: 8px !important;
+}

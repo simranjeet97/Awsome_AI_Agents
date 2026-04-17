@@ -1,0 +1,12 @@
+streamlit
+transformers>=4.50.0
+torch
+accelerate
+bitsandbytes
+pydicom
+nibabel
+opencv-python
+Pillow
+fpdf2
+requests
+python-dotenv
